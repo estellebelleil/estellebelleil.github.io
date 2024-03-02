@@ -1,0 +1,89 @@
+body
+{
+    background-color: #788fd377;
+    /*background-color: rgba(182, 175, 189, 0.384);*/
+    /*background-color:#1B1C20;*/
+    font-family: "Mulish", sans-serif; 
+    color:white
+    
+}
+header
+{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.5rem;
+
+}
+h1
+{
+    padding:2rem;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 4rem;
+    /*font-weight: bold;*/
+    font-family: "Playfair Display", serif;
+    
+    
+}
+
+.col-2
+{
+    border-radius: 9rem;
+    font-size: 1rem;
+    background-color: #9DA2DC;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    margin-bottom:5rem;
+    margin-top:2rem;
+    margin-left:1rem ;
+    margin-right:0rem ;
+    width:10rem;
+    text-align:center;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    
+}
+#last
+{
+    margin-right: 0.5rem;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
+.bandeau
+{
+    background-image: url('img/mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 22rem;
+    
+
+}
+.textBandeau
+{
+    background-color: rgba(255, 255, 255, 0.089);
+    height: 10rem;
+    padding-top:0.8rem;
+
+
+
+}
+#h2bandeau
+{
+    font-size: 4rem;
+    text-align: center; 
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+h3
+{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
