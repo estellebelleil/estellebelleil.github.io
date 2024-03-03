@@ -1,12 +1,15 @@
 body
 {
-    background-color: #788fd377;
+    /*background-color: #788fd377;//
     /*background-color: rgba(182, 175, 189, 0.384);*/
     /*background-color:#1B1C20;*/
+    /*background-color: #154375;*/
+    background-color:#CBAB83;
     font-family: "Mulish", sans-serif; 
     color:white
     
 }
+/*
 header
 {
     
@@ -15,24 +18,29 @@ header
     background-position: center;
     border-radius: 1.5rem;
 
-}
+}*/
 h1
 {
     padding:2rem;
+    padding-bottom: 0rem;
     text-align: center;
-    margin-bottom: 0;
-    font-size: 4rem;
+    font-size: 10rem;
     /*font-weight: bold;*/
     font-family: "Playfair Display", serif;
+    padding-top: 18rem;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0) ;
     
     
 }
 
-.col-2
+/*.col-2
 {
     border-radius: 9rem;
     font-size: 1rem;
+    /*
     background-color: #9DA2DC;
+    background-color: #56a3c298;
+    
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
     padding-right: 0.6rem;
@@ -45,7 +53,7 @@ h1
     text-align:center;
     border: 2px solid rgba(0, 0, 0, 0.199);
     
-}
+}*/
 #last
 {
     margin-right: 0.5rem;
@@ -55,35 +63,64 @@ a
     text-decoration: none;
     color:black;
 }
-.bandeau
+#bandeau
 {
-    background-image: url('img/mountain.jpg');
+    background-image: url('img/forest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 22rem;
+    background-attachment: fixed;
+    height: 60rem;
+    box-shadow: 0 5px 15px rgb(102, 56, 13);
     
-
 }
-.textBandeau
-{
-    background-color: rgba(255, 255, 255, 0.089);
-    height: 10rem;
-    padding-top:0.8rem;
 
-
-
-}
 #h2bandeau
 {
-    font-size: 4rem;
-    text-align: center; 
+    font-size: 5rem;
+    text-align: center;
+    padding-left:18rem;
     font-family: "Playfair Display", serif;
     font-weight: bold;
+    /*color:rgba(255, 255, 255, 0.733);*/
+    color:#cbab83d7;
+    -webkit-text-stroke: 0.4px black ;
 }
 h3
 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-family: "Mulish", sans-serif; 
+
+}
+footer
+{
+    text-align: center;
+    height:5rem;
+    box-shadow: 0 5px 15px rgb(102, 56, 13);
+
+
+}
+#footerText
+{
+    font-size: 1.2rem;    
+    padding-top: 1.5rem;
+}
+p
+{
+    font-size:1.1rem;
+    line-height:2.2rem ;
+}
+.colorButton
+{
+    border:none;
+    background-color: white;
+    color:#cbab83d7;
+    font-size: 1.1rem;
+}
+.colorButton:hover
+{
+    background-color: rgba(102, 56, 13, 0.445);
 }
