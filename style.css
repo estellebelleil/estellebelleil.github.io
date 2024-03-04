@@ -1,68 +1,41 @@
 body
 {
-    /*background-color: #788fd377;//
-    /*background-color: rgba(182, 175, 189, 0.384);*/
-    /*background-color:#1B1C20;*/
-    /*background-color: #154375;*/
     background-color:#CBAB83;
     font-family: "Mulish", sans-serif; 
     color:white
     
 }
-/*
-header
-{
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 1.5rem;
 
-}*/
 h1
 {
     padding:2rem;
     padding-bottom: 0rem;
     text-align: center;
     font-size: 10rem;
-    /*font-weight: bold;*/
     font-family: "Playfair Display", serif;
     padding-top: 18rem;
     -webkit-text-stroke: 0.1px rgb(0, 0, 0) ;
-    
-    
 }
 
-/*.col-2
-{
-    border-radius: 9rem;
-    font-size: 1rem;
-    /*
-    background-color: #9DA2DC;
-    background-color: #56a3c298;
-    
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
-    padding-right: 0.6rem;
-    padding-left: 0.6rem;
-    margin-bottom:5rem;
-    margin-top:2rem;
-    margin-left:1rem ;
-    margin-right:0rem ;
-    width:10rem;
-    text-align:center;
-    border: 2px solid rgba(0, 0, 0, 0.199);
-    
-}*/
-#last
-{
-    margin-right: 0.5rem;
-}
+
 a
 {
     text-decoration: none;
     color:black;
 }
+
+h3
+{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-family: "Mulish", sans-serif; 
+
+}
+
+/* HEADER */
+
 #bandeau
 {
     background-image: url('img/forest.jpg');
@@ -84,17 +57,12 @@ a
     font-weight: bold;
     /*color:rgba(255, 255, 255, 0.733);*/
     color:#cbab83d7;
-    -webkit-text-stroke: 0.4px black ;
+    -webkit-text-stroke: 0.3px black ;
 }
-h3
-{
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    font-family: "Mulish", sans-serif; 
 
-}
+
+/*FOOTER*/
+
 footer
 {
     text-align: center;
@@ -110,9 +78,14 @@ footer
 }
 p
 {
-    font-size:1.1rem;
+    font-size:1.4rem;
     line-height:2.2rem ;
+    margin-bottom:2rem;
 }
+
+
+/*SECTION : MON PARCOURS*/
+
 .colorButton
 {
     border:none;
@@ -123,4 +96,64 @@ p
 .colorButton:hover
 {
     background-color: rgba(102, 56, 13, 0.445);
+}
+section
+{
+    /*box-shadow: 0 1px 15px rgb(102, 56, 13);*/
+    padding-bottom:5rem;
+    margin-bottom: 3rem;
+    box-shadow: rgb(102, 56, 13) 0px 10px 25px -20px
+
+}
+
+
+/*SECTION : MES COMPETENCES*/
+
+    /*TABLES*/
+    .progress
+    {
+        --bs-progress-border-radius:10rem;
+        /*--bs-progress-bar-bg: #cbab8398;*/
+        /*--bs-progress-bar-bg: #86541669;*/
+        --bs-progress-bar-bg: rgba(102, 56, 13, 0.445);
+        --bs-progress-bg: rgba(255, 255, 255, 0.219);
+        width:17rem;
+        height: 2rem;
+        
+    }
+    .table
+    {
+        --bs-table-bg: transparent;
+        /*--bs-table-color:rgba(102, 56, 13, 0.445);*/
+        --bs-table-color:white;
+    }
+    td
+    {
+
+        font-size: 1.2rem;
+    }
+
+#competence
+{
+    justify-content: space-around;
+}
+.logos
+{
+    width:3.5rem;
+}
+.blocCompetence
+{
+    margin-bottom: 0rem;
+    padding-bottom: 2rem;
+}
+
+/*SEPARATION*/
+.forest
+{
+    background-image: url('img/Forest2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 25rem;
 }
