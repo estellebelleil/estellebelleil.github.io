@@ -56,19 +56,19 @@ h1
     animation-name: slidein;
 }
 
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
+    @keyframes slidein {
+        from {
+        margin-left: 100%;
+        width: 300%;
+        }
+    
+        to {
+        margin-left: 0%;
+        width: 100%;
+        }
     }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
 
-  
+    
 #h2bandeau
 {
     font-size: 5rem;
@@ -82,18 +82,18 @@ h1
     animation-duration: 3s;
     animation-name: hiddentoview;
 }
-@keyframes hiddentoview
-{
-    from {
-        margin-left: 100%;
-        width: 300%;
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
-    }
+    @keyframes hiddentoview
+    {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+        
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+        }
 /*FOOTER*/
 
 footer
@@ -210,16 +210,17 @@ section
 .card
 {
     background-color: #cbab83d7;
+    background-color: rgba(255, 255, 255, 0.219);
     color:white;
     --bs-border-width:0.1px;
     --bs-card-border-color: rgba(255, 255, 255, 0.219);
     --bs-card-border-radius:1rem;
     margin:auto;
-
 }
 .card-body
 {
     text-align: center;
+
 
 }
 .card-img-top
@@ -237,4 +238,76 @@ section
     background-color:  rgba(255, 255, 255, 0.219); 
     border-radius: 1rem 1rem 0rem 0rem;
 
+}
+
+
+
+/*RESPONSIVE - MEDIAS QUERRIES*/
+
+@media (max-width: 700px) 
+{
+    /*Initialisation*/
+    body
+    {
+        margin: 0;
+        padding:0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+    *
+    {
+        box-sizing: border-box;
+    }
+
+    /*Bannière*/
+
+    #bandeau
+    {
+        height: 44rem;
+        
+    }
+    h1
+    {
+
+        font-size: 3.5rem;
+    }
+
+    #h2bandeau
+    {
+        padding-left:0rem;
+        font-size: 3rem;
+    }
+    /*Cards*/
+    .card
+    {
+        width:100%
+    }
+    .card-img-top
+    {
+        height:100%;
+    }
+    /*Parcours */
+    .parcours
+    {
+        text-align: center;
+    }
+    /*Compétences*/
+    .col-5
+    {
+        width:100%
+    }
+    .progress
+    {
+        width:10rem;
+        height: 2rem;
+        
+    }
+    td
+    {
+        font-size: 1.1rem;
+    }
+    .logos
+    {
+        width:2.5rem;
+    }
 }
