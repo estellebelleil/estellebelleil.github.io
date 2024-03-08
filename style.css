@@ -119,6 +119,7 @@ footer
     background-color: white;
     color:#cbab83d7;
     font-size: 1.1rem;
+    margin-bottom:0.2rem;
 }
 .colorButton:hover
 {
@@ -310,4 +311,5 @@ section
     {
         width:2.5rem;
     }
-}
+
+} 
