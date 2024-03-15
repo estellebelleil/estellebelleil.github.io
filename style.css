@@ -158,7 +158,8 @@ section
     td
     {
 
-        font-size: 1.2rem;
+        font-size: 1.8rem;
+
     }
 
 #competence
@@ -271,12 +272,14 @@ section
     {
 
         font-size: 3.5rem;
+        animation:none;
     }
 
     #h2bandeau
     {
         padding-left:0rem;
         font-size: 3rem;
+        animation:none;
     }
     /*Cards*/
     .card
@@ -293,19 +296,15 @@ section
         text-align: center;
     }
     /*Compétences*/
-    .col-5
+    .col-3
     {
-        width:100%
+        width:50%;
     }
-    .progress
-    {
-        width:10rem;
-        height: 2rem;
-        
-    }
+
     td
     {
-        font-size: 1.1rem;
+        font-size: 1rem;
+
     }
     .logos
     {
