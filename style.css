@@ -10,6 +10,7 @@ p
     font-size:1.29rem;
     line-height:2.2rem ;
     margin-bottom:2rem;
+
 }
 
 
@@ -124,6 +125,11 @@ footer
 .colorButton:hover
 {
     background-color: rgba(102, 56, 13, 0.445);
+
+}
+a:hover
+{
+    color:white;
 }
 section
 {
